@@ -1,0 +1,75 @@
+<!--     |  Ejercicio: 3  |
+- Desarrolle una página que contenga 3 imágenes: La primera imagen debe mostrarse con 250 pixeles de ancho por 400 pixeles de alto. La segunda imagen debe ser de 300px por
+300px y la tercera imagen de 500px de ancho por 300px alto. Busque imágenes que sean adecuadas para las proporciones a mostrar.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3_ IMAGEN HTML</title>
+</head>
+
+<body>
+    Naruto<img src="naruto.jpg" alt="NARUTO NIÑO" style="width:250px;height:400px;">
+
+    Sakura<img src="sakura.webp" alt="SAKURA NIÑA" width="300" height="300">  
+
+    Sasuke<img src="sasuke.jpg" alt="SASUKE NIÑO" width="500" height="300">  
+
+</body>
+
+</html>
+
+
+
+<!--    Sintaxis de imágenes HTML
+- La <img> etiqueta HTML se utiliza para incrustar una imagen en una página web.
+- Técnicamente, las imágenes no se insertan en una página web; las imágenes están vinculadas a páginas web.
+- La <img>etiqueta crea un espacio de espera para la imagen de referencia.
+- La <img>etiqueta está vacía, solo contiene atributos y no tiene una etiqueta de cierre.
+- La <img>etiqueta tiene dos atributos obligatorios:
+    src: especifica la ruta a la .
+    alt: especifica un texto alternativo para la imagen.
+
+El atributo "src" requerido especifica la ruta (URL) a la imagen.
+
+    Nota: Cuando se carga una página web, es el navegador, en ese momento, el que obtiene la imagen de un servidor web y la inserta en la página.
+    Por lo tanto, asegúrese de que la imagen realmente permanezca en el mismo lugar en relación con la página web, de lo contrario, sus visitantes
+    obtendrán un ícono de enlace roto. El icono de enlace roto y el alt texto se muestran si el navegador no puede encontrar la imagen.
+    
+
+El atributo "alt" requerido proporciona un texto alternativo para una imagen, si el usuario por algún motivo no puede verla
+(debido a una conexión lenta, un error en el atributo src o si el usuario usa un lector de pantalla).
+
+    Nota: El valor del alt atributo debe describir la imagen:
+
+Tamaño de la imagen: ancho y alto, Los atributos "width" y "height" siempre definen el ancho y el alto de la imagen en píxeles.
+
+    Nota: Los atributos width, heighty, style son todos válidos en HTML. Sin embargo, sugerimos usar el style atributo. Evita que las hojas de estilo
+    cambien el tamaño de las imágenes.
+
+-Imágenes en otra carpeta: Si tiene sus imágenes en una subcarpeta, debe incluir el nombre de la carpeta en el srcatributo.
+-Imágenes en otro servidor/sitio web: Algunos sitios web apuntan a una imagen en otro servidor. Para apuntar a una imagen en otro servidor, debe especificar una 
+ URL absoluta (completa) en el "src" atributo.
+-Imágenes animadas HTML permite GIF animados.
+-Imagen como enlace: Para usar una imagen como enlace, coloque la <img>etiqueta dentro de la <a> etiqueta.
+-Imagen flotante: Usa la propiedad CSS floatpara dejar que la imagen flote a la derecha o a la izquierda de un texto.
+
+EJEMPLOS 
+
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">       TAMAÑO CON STYLE
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">                TAMAÑO CON "width y hieght"
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">        IMAGEN EN OTRA CARPETA
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">    IMAGEN EN OTRO SERVIDOR 
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">          GIF
+
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">            IMAGEN COMO ENLACE
+</a>
+
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">            IMAGEN FLOTANTE
+</a>
+
+-->

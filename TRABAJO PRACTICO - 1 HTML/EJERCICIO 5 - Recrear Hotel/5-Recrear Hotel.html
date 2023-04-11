@@ -1,0 +1,141 @@
+<!--     |  Ejercicio 5 |
+- Visite la web https://tinogasta.tur.ar/hoteles.html. Intente recrear parcialmente dicho portal.-->
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 5_ Recrear Hotel</title>
+
+</head>
+
+<body>
+    <!--Se utilza el 1er atributo para ajuste al 100% de la pagina, 2do color de fondo de tabla, 3er color de letra, 4to para alinear los textos"-->
+    <table style="width: 100%;background-color:#972700;color:white;text-align: center">
+        <tr style="height: 50px"> <!--se le da altura a la fila -->
+            <td style="width:33%;padding-right:10px;text-align:right"><img src="logo-nav.png" alt="Turismo tinogasta"width="100px" height="30px"></td>
+            <td>Inicio</td><!--en la linea de arriba el 1er atributo es para la longitud dentro de la tabla, 2do es para colocar relleno entre el contenido y borde de la celda, 3ero alinear el texto-->
+            <td>Información ▼</td>
+            <td>Acceso</td>
+            <td>Galeria</td>
+            <td>Turismo ▼</td>
+            <td>Contactanos</td>
+            <!--la manera de poner varios atributos de "style" en un elemento es separando con ";" cada estilo-->
+            <td style="width:20%;padding-right:10px;text-align:right"><img src="facebook.png" alt="facebook"
+                    width="20px" height="20px"></td>
+            <td style="width:20%;text-align:left"><img src="instagram.png" alt="instagram" width="20px" height="20px">
+            </td>
+        </tr>
+    </table>
+    <p style="text-align: center"> <!--Colocamos la imagen dentro de un parrafor para poder centrarla(POR AHORA LO HICE DE ESTA FORMA PERO NO CREO QUE SEA LA CORRECTA)-->
+        <img src="ALOJAMIENTO.png" alt="ALOJAMIENTO">
+    </p>
+       <!--usamos "aling para centrar la tabla en la pantalla (NO CREO QUE SEA ESTA LA FORMA)"...1er atributo es para definir un borde con tamaño "px", luego el tipo de borde, y luego le damos un color-->
+    <table align="center" style="border:1px solid darkgrey;border-collapse: collapse;width:70%;"> <!--2do atributo es para evitar tener bordes doble-->   
+        <tr style="color: white;background-color: #972700;border:1px solid darkgrey;height: 40px;text-align:left">
+            <th>Alojamiento</th> 
+            <th style="border:1px solid darkgrey">Direccion</th><!--Se define borde en tabla (por fuera), en cada fila, y luego en la celda del medio, para tener borde en toda la tabla-->
+            <th>Telefono</th>
+        </tr>
+        <tr style="background-color:gainsboro;border:1px solid darkgrey;height: 40px">
+            <td>Hotel Santé</td>
+            <td style="border:1px solid darkgrey">25 de mayo 53 SUR. A dos cuadras y media de la plaza principal</td>
+            <td>3837-471798 jaledcabur@hotmail.com.ar - santehostal@live.com</td>
+        </tr>
+        <tr style="border:1px solid darkgrey;height: 40px"><!--Se va intercalando el color de fondo de las filas para que tenga el resultado que se ve en la pagina-->
+            <td>Hotel Nicolas</td>
+            <td style="border:1px solid darkgrey">Pte. Perón 231</td>
+            <td>03837-420028</td>
+        </tr>
+        <tr style="background-color:gainsboro;border:1px solid darkgrey;height: 40px">
+            <td>03837-420028</td>
+            <td style="border:1px solid darkgrey">25 de Mayo Esq. Moreno</td>
+            <td>Moreno 03837-421088</td>
+        </tr>
+        <tr style="border:1px solid darkgrey;height: 40px">
+            <td>Las Pircas Hotel Boutique</td>
+            <td style="border:1px solid darkgrey">Anillaco</td>
+            <td>3835 483176</td>
+        </tr>
+        <tr style="background-color:gainsboro;border:1px solid darkgrey;height: 40px">
+            <td>Residencia el Viajante</td>
+            <td style="border:1px solid darkgrey">Av. Illia s/n</td>
+            <td>03837-420830</td>
+        </tr>
+        <tr style="border:1px solid darkgrey;height: 40px">
+            <td>Residencia San Francisco</td>
+            <td style="border:1px solid darkgrey">Moreno 784</td>
+            <td>03837-475201</td>
+        </tr>
+        <tr style="background-color:gainsboro;border:1px solid darkgrey;height: 40px">
+            <td>Cabañas del Indio</td>
+            <td style="border:1px solid darkgrey">Mariano Moreno N°165</td>
+            <td>2477506301 / 3837404832</td>
+        </tr>
+        <tr style="border:1px solid darkgrey;height: 40px">
+            <td>2477506301 / 3837404832</td>
+            <td style="border:1px solid darkgrey">Copacabana</td>
+            <td>383 4562629</td>
+        </tr>
+        <tr style="background-color:gainsboro;border:1px solid darkgrey;height: 40px">
+            <td>Hospedaje Huguito</td>
+            <td style="border:1px solid darkgrey">Copiapó número 86</td>
+            <td>Vanessa: 383 748 6840</td>
+        </tr>
+        <tr style="border:1px solid darkgrey;height: 40px">
+            <td>Cabañas burro con pan</td>
+            <td style="border:1px solid darkgrey">calle tucumán prolongación oeste sin número</td>
+            <td>Vanessa: 383 748 6840</td>
+        </tr>
+    </table>
+    <!--Se utiliza el elemento "hr" para separar el contenido, 1er atributo es para el tamaño en "px", 2do color, 3er muestra el porcentaje con respecto a la pantalla y esta centrado por defecto-->
+    <hr style="height: 3px;background-color:#972700;width:56%;margin-top: 50"> <!--y el ultimo atributo es para darle magen con respecto al contenido de arriba-->
+
+    <h2 style="text-align: center">Hostal Salud</h2> <!--Encabezado n°2, se le dio centrado-->
+
+    <p style="text-align:center">El hostal esta compuesto por 10 habitaciones de las cuales 7 se encuentran
+        en la parte inferior y 3 en 1 piso acceso por escalera.
+        todas las habitaciones cuentan con, baño privado, tv, wifi, aire acondicionado frio calor. heladera frigobar.
+        Nuestros baños son amplios, y contamos con una habitacion
+        adaptada para personas con discapacidad motris ( siempre consultar disponibilidad) los baños estan provistos de
+        bidet, secador de pelo. en nuestras instalaciones contamos
+        con wi-fi en todo el establecimiento. servicio de estacionamiento, patio, bar kincho con asadores y acceso a una
+        cocina de uso comun.
+    </p><br><br>
+
+    Ubicacion: 25 de mayo 53 SUR. a dos cuadras y media de la plaza principal <br>
+    Datos de Contacto Whatsapp : +5493737471798 <br>
+    Mail : jaledcabur@hotmail.com.ar santehostal@live.com<br><br><br>
+
+    <img src="1.jpg" alt="habitacion" width="33%">
+    <img src="2.jpg" alt="pileta" width="33%">
+    <img src="3.jpg" alt="comedor" width="33%">
+
+    <hr style="height:3px;background-color:#972700;width:56%;margin-top: 50">
+
+    <h2 style="text-align: center">Hotel de Turismo</h2><br>
+
+    <p style="text-align: center"><img src="HotelTurismoedit3.jpg" alt="Hotel Turismo" width="20%"></p> <!--otra foto dentro de un parrafo para centrar-->
+
+    <hr style="height:3px;background-color:#972700;width:56%;margin-top: 50">
+
+    <h2 style="text-align: center">Casagrande Hotel Boutique de Adobe</h2><br>
+
+    <p style="width: 95%;text-align:center">Casagrande Hotel de Adobe, es un hotel boutique con Piscina, Jacuzzi,
+        Restaurante y Winery. Ubicado a 200mts de la plaza principal,
+        forman parte de La Ruta del Adobe con un casco historico del año 1890.</p><br><br>
+
+    Pagina Web: <a href="https://www.casagrandetour.com">https://www.casagrandetour.com</a><br>
+    Ubicacion: Moreno 801 <br>
+    Datos de Contacto Whatsapp : +5493837438317 <br>
+    Mail : Info@casagrandetour.com <br>
+    Telefono Fijo : 03837 421140 <br><br><br>
+
+    <img src="3(1).JPG" alt="habitacion" width="33%">
+    <img src="B.jpeg" alt="pileta" width="33%">
+    <img src="K-K.png" alt="comedor" width="33%">
+
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+<!--     |  Ejercicio 10  |
+- Realice una página web que muestre las siguientes tablas:
+● Una tabla con 3 filas y 3 columnas.
+● Una tabla con 2 filas y 4 columnas.
+● Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas
+tengan 3 celdas.
+● Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
+columna 1 celda y la tercera columna 3 celdas (filas).-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 10_Tabla - tamaños de celdas</title>
+
+</head>
+
+<body style="background-color: black;">
+    <h1 style="color: white; text-align: center;">Tablas: distinto tamaño de celdas / culumnas</h1>
+
+    <table style="width: 100%;">
+        <tr>
+            <td style="width:30%">
+                <table align="center" style="color: black;text-align: center;border-collapse: collapse;">
+
+                    <!--La etiqueta "caption" sirve para poner un titulo a la tabla, por defecto se coloca arriba, pero puede colocarse en las 4 caras de la tabla-->
+                    <caption style="color: red;padding-bottom: 20px;">Tabla con 3 filas y 3 columnas</caption>
+                    <tr> <!--"padding" sirve para poner relleno en la celda, en el caso que no se especifique un borde en particular (como arriba), el "padding" rellena por toda la celda (como abajo)-->
+
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 1</p> <!--Cuando ponemos el color de borde igual al color de fondo del documento  -->
+                            <p>FILA 1</p>    <!--         obtendremos el efecto de un borde invisible                 -->
+                        </td>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 2</p>
+                            <p>FILA 1</p>
+                        </td>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 3</p>
+                            <p>FILA 1</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 1</p>
+                            <p>FILA 2</p>
+                        </td>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 2</p>
+                            <p>FILA 2</p>
+                        </td>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 3</p>
+                            <p>FILA 2</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 1</p>
+                            <p>FILA 3</p>
+                        </td>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 2</p>
+                            <p>FILA 3</p>
+                        </td>
+                        <td style="background-color: red;border: 4px solid black;padding: 10px;">
+                            <p>COLUMNA 3</p>
+                            <p>FILA 3</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:30%;">
+                <table align="center" style="color: black;text-align: center;border-collapse: collapse;">
+                    <caption style="color: orange;padding-bottom: 20px;">Tabla con 2 filas y 4 columnas</caption>
+                    <tr>
+                            <!-- Con "border-radius" los bordes obtienen esquina redondeadas por lo que obtenemos celdas ovaladas-->
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 1</p> 
+                            <p>FILA 1</p>
+                        </td>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 2</p>
+                            <p>FILA 1</p>
+                        </td>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 3</p>
+                            <p>FILA 1</p>
+                        </td>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 4</p>
+                            <P>FILA 1</P>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 1</p>
+                            <p>FILA 2</p>
+                        </td>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 2</p>
+                            <p>FILA 2</p>
+                        </td>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 3</p>
+                            <p>FILA 2</p>
+                        </td>
+                        <td style="border-radius:35px;background-color: orange;border: 4px solid black;padding: 10px">
+                            <p>COLUMNA 4</p>
+                            <P>FILA 2</P>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:30%;">
+                <table align="center" style="color: black;text-align: center;border-collapse: collapse;">
+                    <caption style="color: yellow;padding-bottom: 20px;">Tabla con 3 filas, la primera fila tiene solo una celda y las
+                        otras dos filas 3 celdas.</caption>
+                    <tr>
+                        <!-- Aquie especificamos en "border" el tipo de borde que queremos, en este caso "dotted" es igual a linea punteada-->
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px" colspan="3">
+                            <!-- Con el atributo "colspan" le indicamos que ocupe "n" celdas, en este caso ocupa 3 celdas de columnas distintas, lo que es igual una celda que ocupe 3 columnas-->
+                            <p>FILA 1</p>
+                            <p>CELDA 1</p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px">
+                            <p>FILA 2</p>
+                            <p>CELDA 1</p>
+                        </td>
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px">
+                            <p>FILA 2</p>
+                            <p>CELDA 2</p>
+                        </td>
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px">
+                            <p>FILA 2</p>
+                            <p>CELDA 3</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px">
+                            <p>FILA 3</p>
+                            <p>CELDA 1</p>
+                        </td>
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px">
+                            <p>FILA 3</p>
+                            <p>CELDA 2</p>
+                        </td>
+                        <td style="background-color:yellow;border: 4px dotted black;padding: 10px">
+                            <p>FILA 3</p>
+                            <p>CELDA 3</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br><br>
+    <table align="center" style="color: black;text-align: center;border-collapse: collapse;width: 80%">
+        <caption style="color: rgb(2, 158, 2);padding-bottom: 20px;">Tabla con 3 columnas, la primera columna tiene 2 celdas, la segunda
+            columna 1 celda y la tercera columna 3 celdas(filas)</caption>
+            <tr>
+                <!-- Con el atributo "rowspan" le indicamos que ocupe "n" celdas, en este caso ocupa 2 celdas de filas distintas, lo que es igual una celda que ocupe 2 filas-->
+                <td rowspan="2" style="background-color:rgb(2, 158, 2);border: 10px inset black;padding: 10px"><p>COLUMNA 1</p><P>FILA 1</P></td>
+                <td rowspan="3" style="background-color:rgb(2, 158, 2);border: 10px inset black;padding: 10px"><p>COLUMNA 2</p><P>FILA 1</P></td>
+                <td style="background-color:rgb(2, 158, 2);border: 10px inset black;padding: 10px"><p>COLUMNA 3</p><P>FILA 1</P></td>
+            </tr>
+            <tr>
+                <!-- Aqui utilizamos la paleta de color de "rgb" ya que necesitamos un color en particular con nombre desconocido, anteriormente venimos usando colores por su nombre-->
+                <td style="background-color:rgb(2, 158, 2);border: 10px inset black;padding: 10px"><p>COLUMNA 3</p><P>FILA 2</P></td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(2, 158, 2);border: 10px inset black;padding: 10px"><p>COLUMNA 1</p><P>FILA 2</P></td>
+                <td style="background-color:rgb(2, 158, 2);border: 10px inset black;padding: 10px"><p>COLUMNA 3</p><P>FILA 3</P></td>
+            </tr>
+
+    </table>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!--     |  Ejercicio 7  |
+- Realizar una página que contenga tres listas:
+● Una lista ordenada de sus sabores preferidos de helados.
+● Una lista sin orden de sus pasatiempos.
+● Una lista combinada, donde el primer nivel es una lista sin orden y cada subnivel es una lista ordenada o viceversa. Los ítems quedan a su elección.-->
+
+<!--     |  Ejercicio 8  |
+- Haga dos listas de cada tipo mostrando diferentes tipos de viñetas y numeraciones. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 7 y 8_Listas y marcadores</title>
+</head>
+<body>
+    <h1>A continuacion se muestran Varias listas, donde mostramos cierta informacion sacada de la web</h1>
+
+
+    <ul style="list-style-type:square;"> <!--Lista sin orden: con el atributo "style" le damos el estilo de marcador EN ESTE CASO ES CUADRADO-->
+        <li>
+            <h2>Sabores de Helados: Top 5 Favoritos Por Los Expertos 2023</h2>
+        </li>
+        <ol> <!--Lista con orden: por defecto es con numero y comienzo con el "1" -->
+            <li>CHOCOLATE: El helado de chocolate no solo es el sabor más popular de nuestra lista, sino que también es el más
+                antiguo</li>
+            <li>VAINILLA: El helado de vainilla se puede combinar con la mayoría de los postres o se puede disfrutar por sí
+                solo.</li>
+            <li>GALLETA Y CREMA: Aparte del delicioso sabor, el encantador contraste de las galletas crujientes y el helado
+                espeso es lo que lo hace tan fenomenal</li>
+            <li>MENTA CON CHOCOLATE: Este popular sabor es uno que amas u odias</li>
+            <li>MASA PARA GALLETAS: La masa para galletas con chispas de chocolate tiene un sabor nostálgico que traerá buenos
+                recuerdos de la infancia</li>
+        </ol>
+        <li>
+            <h2>Los Pasatiempos mas populares elegidos por el mundo</h2>
+            <ul style="list-style-type:circle;"> <!--EN ESTE CASO ES CIRCULO VACIO-->
+                <li>Gaming</li>
+                <li>Escritura</li>
+                <li>Musica</li>
+                <li>Artesania</li>
+                <li>Decoracion de Interiores</li>
+                <li>Lectura</li>
+                <li>Dibujar</li>
+                <li>Fotografias</li>
+                <li>Redes Sociales</li>
+                <li>Fitness</li>
+            </ul>
+        </li>
+        <li>
+            <h2>Informacion del Almibar</h2>
+            <p>Es una base de muchos postres caseros. Pero ¿qué es el almíbar? Pues ni más ni menos que azúcar disuelto normalmente en agua y cocido
+            al fuego hasta que toma consistencia de jarabe. Para hacer almíbar necesitamos azúcar blanco refinado. Puede ser en polvo o terrones, como prefieras.
+            Debemos cocer el azúcar en agua en un recipiente de acero inoxidable preferiblemente. Uno de cobre no esmaltado también valdría. Lo importante es que
+            el fondo del cazo sea grueso. La cocción debe ser progresiva. Empezamos calentando a fuego lento. Así el azúcar se va disolviendo poco a poco.
+            Cuando se haya fundido podremos subir la temperatura y dejarlo cocer hasta conseguir el punto deseado del almíbar. Lo mejor es no remover el almíbar durante
+            este proceso, pero sí debemos evitar que se cristalice en las paredes del recipiente. Para eso podemos pasar un pincel remojado por los bordes durante
+            todo el tiempo de cocción. Las cantidades de azúcar y agua que utilizamos pueden variar, dependen del tipo de almíbar que queramos preparar y el uso que
+            le vayamos a dar. Generalmente, la proporción para hacer un jarabe o almíbar básico es el doble de azúcar que de agua. La cantidad que utilices vendrá dada
+            por la cantidad de almíbar que necesites.</p>
+            <ol type="A"> <!--Aca le ponemos el tipo con "type" de letra mayuscula Y COMIENZA CON "A"-->
+                <li> <!--Si queremos podemos ponerlo que comience con minuscula solo con poner "a"-->
+                    <h3>Paso a Paso para su elaboracion:</h3>
+                    <ul style="list-style-type:square;">
+                        <li>INGREDIENTES</li>
+                            <ul style="list-style-type:none;"> <!--Lista desordenada sin marcador-->
+                                <li>200 g. de azucar blanca</li>
+                                <li>100 ml. de agua</li>
+                            </ul>
+                        <li>Pasos</li>
+                            <ol type="I"> <!--Lista Ordenada: numeros romanos Y COMIENZA CON "I"-->
+                                          <!--podemos ponerlo que comience con minuscula solo con poner "i"-->
+                                <li>Colocamos los dos ingredientes en una cacerola y los llevamos a fuego medio–bajo. El tiempo de cocción varía según
+                                el uso que le daremos al almíbar.</li>
+                                <li>Si lo usaremos para calar un bizcocho, no necesitamos que espese, por lo que serán suficientes un par de minutos
+                                de ebullición, hasta que el azúcar se disuelva.</li>
+                                <li>Si en cambio necesitamos el almíbar tradicional, ese que es denso como un jarabe, debemos cocinarlo por unos 10 minutos
+                                desde que hierve, removiendo cada tanto con una cuchara de madera.</li>
+                                <li>Tened en cuenta que una vez frío se adensará aún más, por lo que después de los 10 minutos si aún os parece líquido,
+                                no os preocupéis que al enfriarse tomará la consistencia justa.</li>
+
+                            </ol>
+                    </ul>
+        
+                </li>
+                <li>
+                    <h3>¿Cómo hacer almíbar clásico?</h3>
+                    <p>Generalmente el azúcar y el agua se usan en la proporción de 2 x 1, es decir 200 gramos de azúcar y 100 ml. de agua. De cualquier
+                    manera las cantidades pueden variar de receta en receta y dependen del uso que se le dará luego al almíbar. Os explico más adelante.</p>
+                </li>
+                <li>
+                    <h3>Tipos de almíbar</h3>
+                    <p>El punto de cocción nos sirve para diferenciar entre los distintos tipos de almíbar. Podemos usar un pesajarabes, que es una especie
+                    de termómetro especial que nos indica la temperatura alcanzada, para calcular los diferentes puntos de cocción del almíbar.
+                    Pero no te preocupes, para todo hay un método alternativo y tradicional.En este caso es tan simple como ir cogiendo un poco de almíbar
+                    con la cuchara y pasarlo entre los dedos, eso sí, mojados en agua fría. La textura que adquiere entre los dedos nos indica los distintos puntos de cocción.</p>
+                    <ul style="list-style-type: disc"> <!--EN ESTE CASO ES CIRCULO PINTADO-->
+                        <li>Almíbar flojo o ligero</li>
+                        <li>Almíbar a punto de hebra fina</li>
+                        <li>Almíbar a punto de hebra gruesa</li>
+                        <li>Almíbar a punto de bola blanda</li>
+                        <li>Almíbar a punto de bola dura</li>
+                        <li>Almíbar a punto quebrado pequeño</li>
+                        <li>Almíbar a punto de quebrado grande</li>
+                        <li>Caramelo claro</li>
+                        <li>Caramelo oscuro</li>
+                        
+                    </ul>
+                </li>
+        
+            </ol>
+        
+        </li>
+        
+    </ul>
+    
+</body>
+</html>
