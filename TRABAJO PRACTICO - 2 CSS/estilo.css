@@ -1,0 +1,30 @@
+h1 {
+    color:blueviolet;
+}
+h2{
+    color:burlywood;
+}
+h3{
+    color:darkred;
+}
+h4{
+    color: lawngreen;
+}
+h5{
+    color: red;
+}
+h6{
+    color: navy;
+}
+body {
+    background-color:bisque;
+}
+head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 8px;
+}
+#este{
+    color:crimson;
+}
