@@ -1,0 +1,58 @@
+<!--     |  Ejercicio 10  | CSS parte A
+- Realice un estilo que permita cambiar el aspecto de la primera letra de un párrafo. Utilice clases para poder separar los
+párrafos a los que no queremos que se le aplique el estilo.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 10_Estilo primer Letra</title>
+    <style>
+        p{
+            text-align: center;
+            font-size: 20px; 
+        }
+        body{
+            background-color: rgb(213, 203, 191);
+        }
+        p.importante::first-letter{
+            color: rgb(193, 13, 221);
+            font-size: 25px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <p class="importante">No dejes que termine el día sin haber crecido un poco, sin haber sido feliz, sin haber aumentado tus sueños.</p>
+    <p>No te dejes vencer por el desaliento.</p>
+    <p class="importante">No permitas que nadie te quite el derecho a expresarte, que es casi un deber.</p>  
+    <p>No abandones las ansias de hacer de tu vida algo extraordinario.</p>
+    <p>No dejes de creer que las palabras y las poesías sí pueden cambiar el mundo.</p>
+    <p class="importante">Pase lo que pase nuestra esencia está intacta.</p>
+    <p class="importante">Somos seres llenos de pasión.</p>
+    <p>La vida es desierto y oasis.</p>
+    <p>Nos derriba, nos lastima, nos enseña,nos convierte en protagonistas de nuestra propia historia.</p>
+    <p>Aunque el viento sople en contra, la poderosa obra continúa:</p>
+    <p>Tu puedes aportar una estrofa.</p>
+    <p class="importante">No dejes nunca de soñar, porque en sueños es libre el hombre.</p>
+    <p>No caigas en el peor de los errores: el silencio.</p>
+    <p>La mayoría vive en un silencio espantoso.</p>
+    <p>No te resignes.</p>
+    <p class="importante">Huye.</p>
+    <p>“Emito mis alaridos por los techos de este mundo”, dice el poeta.</p>
+    <p class="importante">Valora la belleza de las cosas simples.</p>
+    <p>Se puede hacer bella poesía sobre pequeñas cosas, pero no podemos remar en contra de nosotros mismos.</p>
+    <p>Eso transforma la vida en un infierno.</p>
+    <p class="importante">Disfruta del pánico que te provoca tener la vida por delante.</p>
+    <p class="importante">Vívela intensamente,sin mediocridad.</p>
+    <p>Piensa que en ti está el futuro y encara la tarea con orgullo y sin miedo.</p>
+    <p class="importante">Aprende de quienes puedan enseñarte.</p>
+    <p>Las experiencias de quienes nos precedieron de nuestros “poetas muertos”, te ayudan a caminar por la vida</p>
+    <p>La sociedad de hoy somos nosotros: Los “poetas vivos”.</p>
+    <p class="importante">No permitas que la vida te pase a ti sin que la vivas.</p>
+    </div>
+</body>
+</html>

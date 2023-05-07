@@ -1,0 +1,64 @@
+<!--     |  Ejercicio 9  | CSS parte A
+- Definir un estilo para aplicar a tablas. Se piden diferentes valores para el estilo del borde; en concreto, se tiene doble trazo para el
+borde de la tabla, uno sólido para los encabezados y otro de bajo relieve para las celdas normales. También se solicita un color de fondo
+diferente para cada elemento: los encabezados con un azul verdoso, las celdas con naranja y la tabla con gris. Por otro lado se necesita un 
+espacio entre el borde de la tabla y las celdas mediante la declaración border-spacing:12px; ubicada en el selector table. Esta declaración
+la heredarán las celdas también. Por último la declaración padding:4px; en el selector td para dejar un margen entre el borde de las celdas y su contenido.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 9_Estilo en Tabla</title>
+    <style>
+        table{
+            width: 60%;
+            border: 15px double;
+            text-align: center;
+            background-color: silver;
+            border-spacing: 12px;
+            
+        }
+        th,td {
+            border: 4px solid;
+            height: 40px; 
+            font-size: 60px;
+            background-color:rgb(26, 112, 115);
+           
+        }
+      
+        td{
+            border: 2px solid;
+            background-color: rgb(241, 169, 37);
+           padding: 4px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sharingan</th>
+            <th>Byakugan</th>
+            <th>Rinnegan</th>
+        </tr>
+        <tr>
+            <td>Itachi</td>
+            <td>Neji</td>
+            <td>Nagato</td>
+        </tr>
+        <tr>
+            <td>Sasuke</td>
+            <td>Hinata</td>
+            <td>Madara</td>
+        </tr>
+        <tr>
+            <td>Obito</td>
+            <td>Himawari</td>
+            <td>Kaguya</td>
+        </tr>
+    </table>
+</body>
+</html>
