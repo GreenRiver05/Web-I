@@ -1,0 +1,18 @@
+<!--     |  Ejercicio 5  | CSS parte B
+- Si un div es referenciado por 3 selectores: selector de elemento, clase e identificador,
+¿Cuál tiene prioridad? Verifique la respuesta realizando algún código de prueba.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 5_ Prioridad de selectores</title>
+    
+</head>
+
+<body>
+
+</body>
+
+</html>

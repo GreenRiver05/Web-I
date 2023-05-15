@@ -1,0 +1,17 @@
+<!--     |  Ejercicio 2  | CSS parte B
+Definir los estilos necesarios (y el html necesario) para que 3 imágenes incluidas en el contenedor “3img” puedan verse en línea
+(horizontal y vertical) y del mismo tamaño. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 2_Imagenes Horizontal y Vertical</title>
+    
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<!--     |  Ejercicio 3  | CSS parte B
+Usando CSS, agregue una imagen de fondo que se ubique en la esquina superior derecha de la página. La imagen debe permanecer
+fija aún cuando el usuario realice un scroll vertical de la página. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3_ Imagen Fija aun con scroll</title>
+    
+</head>
+
+<body>
+
+</body>
+
+</html>
