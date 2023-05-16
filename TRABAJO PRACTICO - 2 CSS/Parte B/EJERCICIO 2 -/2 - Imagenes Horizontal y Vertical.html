@@ -1,0 +1,63 @@
+<!--     |  Ejercicio 2  | CSS parte B
+Definir los estilos necesarios (y el html necesario) para que 3 imágenes incluidas en el contenedor “3img” puedan verse en línea
+(horizontal y vertical) y del mismo tamaño. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 2_Imagenes Horizontal y Vertical</title>
+
+    <style>
+        h1 {
+            color: chartreuse;
+            text-align: center;
+            background-color: black;
+        }
+        .horizontal img {
+            width: 400px;
+            height: 400px;
+           padding: 20px;
+       }
+        .horizontal{
+
+            margin: auto    ;
+            width: 1340px;
+        }
+        .vertical img {
+            width: 400px;
+            height: 400px;
+            padding: 20px;
+        }
+
+        .vertical {
+            width: 440px;
+            margin-left: 0px;
+
+        }
+
+        div {
+            margin-top: 30px;
+            border-style: solid;
+            border-color: cyan;
+        }
+       
+       
+    </style>
+</head>
+
+<body>
+    <h1> A continuacion veremos 2 forma distinta de ubicar 3 imagenes </h1>
+</body>
+<div class="horizontal">
+    <img src="Nezumi.png" alt="Nezumi">
+    <img src="N°6.gif" alt="Numero 6">
+    <img src="shion.jpg" alt="Shion">
+</div>
+<div class="vertical">
+    <img src="Nezumi.png" alt="Nezumi">
+    <img src="N°6.gif" alt="Numero 6">
+    <img src="shion.jpg" alt="Shion">
+</div>
+
+</html>

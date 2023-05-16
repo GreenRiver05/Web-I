@@ -1,0 +1,64 @@
+<!--     |  Ejercicio 3  | CSS parte B
+Usando CSS, agregue una imagen de fondo que se ubique en la esquina superior derecha de la página. La imagen debe permanecer
+fija aún cuando el usuario realice un scroll vertical de la página. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3_ Imagen fija aun con scroll</title>
+
+    <style>
+        h1 {
+            color: rgb(218, 8, 201);
+            text-align: center;
+            background-color: black;
+        }
+
+        .horizontal img {
+            width: 400px;
+            height: 400px;
+            padding: 16px;
+        }
+
+        .horizontal {
+            position: fixed;
+            margin: auto;
+            width: 1340px;
+        }
+
+        .vertical img {
+            width: 400px;
+            height: 400px;
+            padding: 16px;
+        }
+
+        .vertical {
+            width: 440px;
+            margin-left: 0px;
+
+        }
+
+        div {
+            margin-top: 22px;
+            border-style: solid;
+            border-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> A continuacion veremos como 3 imagenes quedan en la misma posicion </h1>
+</body>
+<div class="horizontal">
+    <img src="../EJERCICIO 2 -/Nezumi.png" alt="Nezumi">
+    <img src="../EJERCICIO 2 -/N°6.gif" alt="Numero 6">
+    <img src="../EJERCICIO 2 -/shion.jpg" alt="Shion">
+</div>
+<div class="vertical">
+    <img src="../EJERCICIO 2 -/Nezumi.png" alt="Nezumi">
+    <img src="../EJERCICIO 2 -/N°6.gif" alt="Numero 6">
+    <img src="../EJERCICIO 2 -/shion.jpg" alt="Shion">
+</div>
+
+</html>
